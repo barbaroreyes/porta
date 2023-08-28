@@ -12,6 +12,7 @@ import Front from './pages/Front';
 import Back from './pages/Back';
 import Full from './pages/Full';
 import UX from './pages/UX';
+import Case from './pages/Case';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path ='/back_projects' element={<Back/>}/>
         <Route path ='/full_projects' element={<Full/>}/>
         <Route path ='/ux_projects' element={<UX />}/>
+        <Route path ='/case' element={<Case/>}/>
         <Route path ='/about' element={<About/>}/>
         <Route path ='/contact' element={<Contact/>}/>
       </Routes>
