@@ -4,10 +4,10 @@ function Main() {
   return (
     <div className="main_container">
       
-      <div>box</div>
-      <div>box</div>
-      <div>box</div>
-      <div>box</div>
+      <div className='grow'>Front-End</div>
+      <div className='grow'>Backend</div>
+      <div className='grow'>Full Stack</div>
+      <div className='grow'>UX/UI Desing</div>
     </div>
   )
 }
