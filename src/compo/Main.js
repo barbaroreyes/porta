@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Main() {
   return (
     <div className="main_container">
       
-      <div className='grow'>Front-End</div>
-      <div className='grow'>Backend</div>
-      <div className='grow'>Full Stack</div>
-      <div className='grow'>UX/UI Desing</div>
+      <Link className='grow'>Front-End</Link>
+      <Link className='grow'>Backend</Link>
+      <Link className='grow'>Full Stack</Link>
+      <Link className='grow'>UX/UI Desing</Link>
     </div>
   )
 }

@@ -34,9 +34,9 @@
  flex-direction: column;
  justify-content:center;
  align-items:center;
- padding: 80px;
+ padding: 2px;
 }
-.main_container div{
+.main_container a{
  margin: 10px;
  width: 70%;
  border: 4px solid;
@@ -47,6 +47,7 @@
  background-color: black;
  color: white;
  border-radius: 10px;
+ text-decoration: none;
 }
 .nav_container div{
   margin: 3px;
@@ -57,7 +58,7 @@
 width: 80%;
 border-radius:50%;
 }
-.regular_nav{
+.regular_nav a{
   display: none;
 }
 .footer_container{
@@ -132,6 +133,9 @@ flex-wrap: wrap;
   display: none;
 }
 @media (min-width: 768px){
+  .container{
+    background-color:#ebf3f4
+  }
  .nav_container div{
     display: none;
   }.image_container img{
@@ -156,6 +160,7 @@ flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 80px;
     
     margin-top: 200px;
   }.main_container div{
