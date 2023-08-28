@@ -8,6 +8,10 @@ import {Routes,Route} from 'react-router-dom'
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Front from './pages/Front';
+import Back from './pages/Back';
+import Full from './pages/Full';
+import UX from './pages/UX';
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
       <Routes>
         <Route path ='/' element={<Main/>}/>
         <Route path ='/projects' element={<Projects/>}/>
+        <Route path ='/front_projects' element={<Front/>}/>
+        <Route path ='/back_projects' element={<Back/>}/>
+        <Route path ='/full_projects' element={<Full/>}/>
+        <Route path ='/ux_projects' element={<UX />}/>
         <Route path ='/about' element={<About/>}/>
         <Route path ='/contact' element={<Contact/>}/>
       </Routes>

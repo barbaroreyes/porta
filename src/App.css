@@ -61,6 +61,25 @@ border-radius:50%;
 .regular_nav a{
   display: none;
 }
+.projects{
+  width: 100%;
+  height: 70vh;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.projects .project{
+ width: 95%;
+ border : 1px solid ;
+ height: 12vh;
+ margin: 10px;
+ border-radius:10px;
+ display: flex;
+ justify-content:center;
+ flex-direction:column;
+ align-items:center;
+}
 .footer_container{
  
   height: 11vh;
@@ -108,7 +127,9 @@ flex-wrap: wrap;
   justify-content: center;
   align-items: center;
  }
+.projects{
 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -4,6 +4,7 @@ const Projects = () => {
   return (
     <div>
       Projects
+      <div>projectName</div>
     </div>
   );
 }
