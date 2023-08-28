@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='footer_container'>
      <div className='tools'>
        <h5 style={{color: 'white' , width:'100%'}}>Stack</h5>
-     <span><FaReact/></span>
+     <span ><FaReact /></span>
       <span><FaAws/></span>
       <span><SiGraphql/></span>
       <span><SiExpress/></span>
