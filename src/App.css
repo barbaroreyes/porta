@@ -57,6 +57,9 @@
 width: 80%;
 border-radius:50%;
 }
+.regular_nav{
+  display: none;
+}
 .footer_container{
  
   height: 11vh;
