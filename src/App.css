@@ -70,15 +70,25 @@ border-radius:50%;
  align-items: center;
 }
 .projects .project{
- width: 95%;
+ width: 65%;
  border : 1px solid ;
  height: 12vh;
- margin: 10px;
+ margin: 7px;
  border-radius:10px;
  display: flex;
  justify-content:center;
  flex-direction:column;
  align-items:center;
+ padding: 10px;
+}
+.projects .project div{
+  padding: 3px;
+}
+.projects .project div a{
+  margin: 10px;
+  text-decoration:none;
+  color :black;
+  cursor: pointer;
 }
 .footer_container{
  
