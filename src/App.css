@@ -136,14 +136,19 @@ flex-wrap: wrap;
 
   }.regular_nav{
     display: flex;
+    
   }
-  .regular_nav div{
+  .regular_nav a{
     display:flex;
     border: 3px solid white;
     background: white;
     margin: 10px;
     width: 110px;
-    border-radius: 10px
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
   }.main_container{
     flex-direction: row;
     justify-content: center;
