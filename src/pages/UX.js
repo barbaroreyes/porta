@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const UX = () => {
   return (
     <div className='projects' >
-     UX/UI Projects
+    
       <div className=" project"  >
       <h3>Portafolio Music</h3>
       <div>
