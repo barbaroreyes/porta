@@ -15,7 +15,7 @@
   display:flex;
   justify-content: space-around;
   align-items: center;
- padding: 10px;
+ padding: 1px;
  background: black;
   
 }
@@ -49,11 +49,10 @@
  border-radius: 10px;
  text-decoration: none;
 }
-.nav_container div{
-  margin: 3px;
-  border-radius: 3px;
-  border : 1px solid white;
-}
+
+
+
+
 .image_container img{
 width: 80%;
 border-radius:50%;
